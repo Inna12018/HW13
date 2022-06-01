@@ -1,0 +1,32 @@
+.image-to-show {
+  width: 400px;
+  height: 400px;
+  display: none;
+  opacity: 0;
+  transition: opacity ease-in-out .5s;
+}
+
+.image-visible {
+  opacity: 1;
+}
+
+.images-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.pauseBtn {
+  margin-right: 15px;
+}
+
+.timer-wrapper {
+  display: flex;
+  justify-content: center;
+}
